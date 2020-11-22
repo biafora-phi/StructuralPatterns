@@ -8,8 +8,8 @@ public class PizzaDiavola implements Pasto {
 
     public PizzaDiavola(){
         this.tipo = "Pizza Diavola";
-        this.prezzo = 5.5;
-        this.numeroIngredienti = 5;
+        this.prezzo = 0;
+        this.numeroIngredienti = 4;
     }
 
     @Override
@@ -36,5 +36,17 @@ public class PizzaDiavola implements Pasto {
 
     public int getNumeroIngredienti() {
         return numeroIngredienti;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setPrezzo(double prezzo) {
+        this.prezzo = prezzo;
+    }
+
+    public void setNumeroIngredienti(int numeroIngredienti) {
+        this.numeroIngredienti = numeroIngredienti;
     }
 }

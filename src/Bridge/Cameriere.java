@@ -1,5 +1,6 @@
 package Bridge;
 
-public interface Cameriere {
-    public Pasto getPasto(String p);
+public abstract class Cameriere {
+    public abstract Pasto getPasto(Pasto p);
+
 }

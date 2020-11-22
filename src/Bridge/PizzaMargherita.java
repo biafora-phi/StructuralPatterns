@@ -8,7 +8,7 @@ public class PizzaMargherita implements Pasto{
 
     public PizzaMargherita(){
         this.tipo = "Pizza Margherita";
-        this.prezzo = 4.5;
+        this.prezzo = 0;
         this.numeroIngredienti = 3;
     }
 
@@ -38,4 +38,15 @@ public class PizzaMargherita implements Pasto{
         return numeroIngredienti;
     }
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setPrezzo(double prezzo) {
+        this.prezzo = prezzo;
+    }
+
+    public void setNumeroIngredienti(int numeroIngredienti) {
+        this.numeroIngredienti = numeroIngredienti;
+    }
 }
